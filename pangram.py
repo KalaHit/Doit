@@ -1,6 +1,5 @@
 message=input("enter any number")
-falg= True
-
+flag= True
 if len(message)<=26:
      print("string is not pangram")
 else:
@@ -9,5 +8,6 @@ else:
             flag=false
             print("sting is not pangram")
             break
-if falg ==true:
+
+if flag ==true:
     print("string is pangram")
